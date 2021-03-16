@@ -8316,7 +8316,7 @@ strong {
             -o-transform: scaleX(1);
             transform: scaleX(1); }
       #colorlib-main-nav ul li.active a span {
-        color: #f8b500; }
+        color: ##f80095; }
         #colorlib-main-nav ul li.active a span:before {
           background: #69779b;
           visibility: visible;
