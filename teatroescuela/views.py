@@ -11,7 +11,7 @@ class Nosotres(TemplateView):
     template_name = 'about.html'
 
 class Modelo(TemplateView):
-    template_name = 'blog.html'
+    template_name = 'modelo.html'
 
 class Contacto(TemplateView):
     template_name = 'contact.html'
