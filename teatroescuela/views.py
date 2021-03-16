@@ -15,3 +15,6 @@ class Modelo(TemplateView):
 
 class Contacto(TemplateView):
     template_name = 'contact.html'
+
+class Facilitadores(TemplateView):
+    template_name = 'facilitadores.html'
