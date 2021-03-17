@@ -18,3 +18,6 @@ class Contacto(TemplateView):
 
 class Facilitadores(TemplateView):
     template_name = 'facilitadores.html'
+
+class Programas(TemplateView):
+    template_name = 'programas.html'
