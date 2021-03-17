@@ -9,10 +9,11 @@
         <div class="colorlib-table-cell js-fullheight">
           <div class="row no-gutters">
             <div class="col-md-12 text-center">
-              <h1 class="mb-4"><a href="/" class="logo">Erase</a></h1>
+              <h1 class="mb-4"><a href="/" class="logo">Teatro Escuela</a></h1>
               <ul>
                 <li><a href="/"><span>Inicio</span></a></li>
                 <li><a href="{% url 'teatroescuela:nosotres' %}"><span>Nosotres</span></a></li>
+                <li><a href="{% url 'teatroescuela:facilitadores' %}"><span>Facilitadores</span></a></li>
                 <li><a href="{% url 'teatroescuela:modelo' %}"><span>Modelo Educacional</span></a></li>
                 <li class="active"><a href="{% url 'teatroescuela:contacto' %}"><span>Contáctanos</span></a></li>
               </ul>
@@ -21,12 +22,12 @@
         </div>
       </div>
     </nav>
-    
+
     <div id="colorlib-page">
       <header>
       	<div class="container">
 	        <div class="colorlib-navbar-brand">
-	          <a class="colorlib-logo" href="/">Erase</a>
+	          <a class="colorlib-logo" href="/">Centro de Experimentación</a>
 	        </div>
 	        <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
         </div>
@@ -37,8 +38,8 @@
 	      <div class="container-fluid px-0">
 	        <div class="row no-gutters text align-items-end js-fullheight justify-content-center" data-scrollax-parent="true">
 	          <div class="col-md-12 ftco-animate text-center">
-	            <p class="breadcrumbs"><span class="mr-2"><a href="/">Home</a></span> <span>Contact</span></p>
-	            <h1 class="bread">Contact Us</h1>
+	            <p class="breadcrumbs"><span class="mr-2"><a href="/">Inicio</a></span> <span>Nosotres</span></p>
+	            <h1 class="bread">Escríbenos</h1>
 	          </div>
 	        </div>
 	      </div>
@@ -82,7 +83,7 @@
       </section>
 
       <div id="map"></div>
-      
+
       <footer class="ftco-footer ftco-section img">
 	    	<div class="overlay"></div>
 	      <div class="container">
@@ -172,7 +173,7 @@
 {% block script %}
 <script>
 $(document).ready(function() {
- 
+
 });
 </script>
 {% endblock %}
