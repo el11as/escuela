@@ -22,6 +22,12 @@ class Facilitadores(TemplateView):
 class Programas(TemplateView):
     template_name = 'programas.html'
 
+class Investigacion(TemplateView):
+    template_name = 'investigacion.html'
+
+class Extension(TemplateView):
+    template_name = 'extension.html'
+
 class ResgitroView(View):
 
     def post(self, request, *args, **kwargs):
