@@ -5795,7 +5795,11 @@ button.bg-dark:focus {
 .align-items-center {
   -webkit-box-align: center !important;
   -ms-flex-align: center !important;
-  align-items: center !important; }
+   align-items: center !important; }
+
+.align-items-center-2 {
+  -webkit-box-align: center !important;
+  -ms-flex-align: center !important;}
 
 .align-items-baseline {
   -webkit-box-align: baseline !important;
